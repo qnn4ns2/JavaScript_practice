@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カラーピッカー</title>
+    <!--cssを読み込ませる-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--<script>タグにdefer属性を追加することで、非同期処理が可能になる-->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div><!--divタグでグループ化することでページを管理しやすくする-->
+        <p id="colorText">カラーコードを検索</p>
+        <!--タグはWebフォーム上でユーザーからデータや入力を受け取るための操作可能なコントロール（入力欄やボタンなど）を作成する要素-->
+        <!--<imput>タグ内のtype属性をcolorに設定することで、ユーザーが色を選択できるカラーピッカーを表示することができる-->
+        <input id="colorPiker" type="color">
+    </div>
+</body>
+</html>
